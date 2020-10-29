@@ -305,7 +305,8 @@ mewakili keputusan yang mungkin diambil. Dengan Decision Tree akan ditentukan ap
 ![dct](/img/25-model-decision-tree.png)
 
 ### Naive Bayes
-Naive Bayes adalah metode klasifikasi yang menggunakan metode probabilitas dan statistik. Algoritma naive bayes juga termasuk dalam supervised learning. 
+Naive Bayes adalah metode klasifikasi yang menggunakan metode probabilitas dan statistik. Algoritma naive bayes juga termasuk dalam supervised learning. Ciri utama dr Naïve Bayes Classifier ini adalah asumsi yg sangat kuat (naïf) akan independensi dari masing-masing kondisi / kejadian. Algoritma ini mengasumsikan bahwa atribut obyek adalah independen. Probabilitas yang terlibat dalam memproduksi perkiraan akhir dihitung sebagai jumlah frekuensi dr ” master ” tabel keputusan.
+
 ### Random Forest
  adalah kombinasi dari  masing – masing tree yang baik kemudian dikombinasikan  ke dalam satu model. Random Forest bergantung pada sebuah nilai vector random dengan distribusi yang sama pada semua 
  pohon yang masing masing decision tree memiliki kedalaman yang maksimal. Random forest adalah classifier yang terdiri dari classifier yang berbentuk pohon {h(x, θ k ), k = 1, . . .} 
